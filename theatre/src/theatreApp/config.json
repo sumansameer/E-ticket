@@ -1,0 +1,16 @@
+{
+    "hydra" :
+    {
+        "serviceName" : "theatrems",
+        "serviceIP" : "",
+        "servicePort" : 8182,
+        "serviceType" : "",
+        "serviceDescription" : "Theatre microservice",
+        "redis" :
+        {
+            "url" : "redis://127.0.0.1",
+            "port" : 6379,
+            "db" : 15
+        }
+    }
+}
